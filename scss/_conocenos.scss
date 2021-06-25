@@ -1,0 +1,29 @@
+//Página Conócenos
+
+#sectionConocenos .container-fluid{
+    padding: 0% !important;
+}
+.contenidoWebCon{
+    font-family: $tipografiaOtros;
+    font-weight: bold;
+}
+.sweetBanner2{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/sweetSugar.jpg);
+}
+.row{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.container{
+    i{
+        color: $colorGeneral1;
+        font-size: 2.5em;
+        padding: 15px;
+    }
+}
+  

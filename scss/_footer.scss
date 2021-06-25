@@ -1,0 +1,43 @@
+//Pie de Página
+.pieDePagina{
+    background-color: $colorGeneral1;
+    i{
+        color: $colorGeneral5;
+        font-size: 2.5em;
+        padding: 15px;
+    }
+}
+.fa-whatsapp:hover{
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.3s;  
+    color: $colorFooter1;
+}
+.fa-instagram:hover{
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.3s;  
+    color: $colorFooter2;
+}  
+.fa-map-marker-alt:hover{
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.3s;
+    color: $colorFooter3;
+}
+.fa-envelope:hover{
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.3s;
+    color: $colorFooter4;
+}
+.footerTitulo{
+    font-size: 1.3rem;
+    color: $colorGeneral2;
+    font-family: $tipografiaSubtitulos;
+}
+.contenidoFooter{
+    font-family: $tipografiaOtros;
+    font-weight: bold;
+    color: $colorGeneral3;
+    font-size: 1.3rem;
+}  
+
+ 
+  

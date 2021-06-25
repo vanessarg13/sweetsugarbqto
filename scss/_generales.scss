@@ -1,0 +1,42 @@
+//Generales
+
+body{
+    line-height: 18px;
+    background-attachment: fixed;
+    overflow: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column; 
+}
+#carouselExampleIndicators{
+    margin-top: 75px;
+}
+.titulosSecciones{
+    font-size: 4rem;
+    font-family: $tipografiaTitulos;
+    text-align: center; 
+    color: $colorGeneral1;
+}
+.subtituloCentrado {
+    font-size: 1.8rem;
+    color: #dd2a5d;
+    font-family: $tipografiaSubtitulos;
+    text-align: center;
+}
+.margin{
+    margin-top: 110px;
+}
+@media (min-width:320px) and (max-width: 768px){
+    #carouselExampleIndicators{
+        margin-top: 70px;
+    }
+    .tituloBanner{
+        font-size: 2.5rem!important;
+    }
+    .pieDePagina{
+        text-align: center;
+        i{
+            padding: 5px!important;
+        }
+    }
+}

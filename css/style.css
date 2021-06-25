@@ -1,0 +1,490 @@
+body {
+  line-height: 18px;
+  background-attachment: fixed;
+  overflow: scroll;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column; }
+
+#carouselExampleIndicators {
+  margin-top: 75px; }
+
+.titulosSecciones {
+  font-size: 4rem;
+  font-family: "Lobster", cursive;
+  text-align: center;
+  color: #C96582; }
+
+.subtituloCentrado {
+  font-size: 1.8rem;
+  color: #dd2a5d;
+  font-family: "Abril Fatface", cursive;
+  text-align: center; }
+
+.margin {
+  margin-top: 110px; }
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #carouselExampleIndicators {
+    margin-top: 70px; }
+  .tituloBanner {
+    font-size: 2.5rem !important; }
+  .pieDePagina {
+    text-align: center; }
+    .pieDePagina i {
+      padding: 5px !important; } }
+
+nav {
+  width: 100%;
+  height: 75px;
+  background-color: #C96582;
+  margin-bottom: 50px;
+  border-bottom: 0.5px #333;
+  z-index: 1;
+  box-shadow: 0px 6px 5px 3px rgba(0, 0, 0, 0.3);
+  animation-name: efecto_nav;
+  animation-duration: 1s;
+  animation-timing-function: linear; }
+
+@keyframes efecto_nav {
+  0% {
+    opacity: 0%; }
+  50% {
+    opacity: 50%; }
+  100% {
+    opacity: 100%; } }
+
+.fixedNav {
+  width: 100%;
+  height: 75px;
+  position: fixed;
+  border-bottom: 0.5px black;
+  z-index: 100;
+  box-shadow: 0px 6px 5px 3px rgba(0, 0, 0, 0.3); }
+
+.ulNav {
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+  .ulNav li {
+    width: 20%;
+    text-align: center;
+    list-style: none;
+    font-family: "Handlee", cursive;
+    font-weight: bold;
+    font-size: 1.5rem; }
+  .ulNav a {
+    padding-left: 3px;
+    text-decoration: none;
+    color: #FEE0E9 !important;
+    text-align: center;
+    transition: 0.5s; }
+  .ulNav a:hover {
+    font-weight: 900;
+    font-size: 1.2rem;
+    background-color: #956A71;
+    color: #FEE0E9;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px; }
+
+.boton-menu {
+  background-color: none; }
+
+.dropdown {
+  padding-top: 10.5px;
+  padding-left: 30px; }
+
+.dropdown-menu {
+  background: #C96582;
+  background: linear-gradient(153deg, #e77f9c 30%, #da7793 83%);
+  margin: 0;
+  padding: 0; }
+
+.dropdown-item {
+  margin: 0;
+  padding: 1em;
+  padding-top: 18px;
+  line-height: 1px;
+  color: #FEE0E9 !important;
+  font-family: "Handlee", cursive;
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center; }
+  .dropdown-item a {
+    height: 24px;
+    padding-top: 10px; }
+  .dropdown-item i {
+    height: 24px;
+    padding-right: 10px; }
+
+.logo {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+  border: solid #FEE0E9; }
+
+.logoMediaQueries {
+  width: 125px;
+  height: 125px;
+  border-radius: 100%;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 2;
+  border: solid #FEE0E9; }
+
+@media (min-width: 768px) {
+  #navMobile {
+    display: none; } }
+
+@media (max-width: 1199px) {
+  .ulNav a:hover {
+    font-weight: 900;
+    background-color: #333;
+    transition: 0.5s;
+    color: #FEE0E9;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 1.2rem; } }
+
+@media (max-width: 991px) {
+  .ulNav li {
+    font-size: 1.1rem; }
+  .ulNav a:hover {
+    font-size: 16px;
+    padding: 5px; } }
+
+@media (max-width: 767px) {
+  #navDesktop {
+    display: none; }
+  #navMobile p {
+    text-align: center;
+    font-family: mons;
+    font-size: 12px;
+    line-height: 38px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 18.5px;
+    left: 68%; } }
+
+#logoHover {
+  padding: 0%; }
+
+.navbar {
+  height: 75px;
+  background-color: #C96582 !important;
+  border-bottom: 0.5px #333;
+  box-shadow: 0px 6px 5px 3px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  border-bottom: 0.5px #333;
+  z-index: 1;
+  animation-name: efecto_nav;
+  animation-duration: 1s;
+  animation-timing-function: linear; }
+
+.pieDePagina {
+  background-color: #C96582; }
+  .pieDePagina i {
+    color: #fff;
+    font-size: 2.5em;
+    padding: 15px; }
+
+.fa-whatsapp:hover {
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;
+  color: #3fdd2a; }
+
+.fa-instagram:hover {
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;
+  color: #dd2a7b; }
+
+.fa-map-marker-alt:hover {
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;
+  color: red; }
+
+.fa-envelope:hover {
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;
+  color: #42d8a1; }
+
+.footerTitulo {
+  font-size: 1.3rem;
+  color: #FEE0E9;
+  font-family: "Abril Fatface", cursive; }
+
+.contenidoFooter {
+  font-family: "Handlee", cursive;
+  font-weight: bold;
+  color: #f8d7c8;
+  font-size: 1.3rem; }
+
+.featuredTitle {
+  font-family: "Abril Fatface", cursive;
+  color: #dd2a5d;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 3rem 0 2rem 0; }
+
+.featuredCard {
+  margin-bottom: 2rem;
+  color: #dd2a5d;
+  font-family: "Handlee", cursive; }
+  .featuredCard:hover {
+    box-shadow: 0px 0px 20px 3px #dad8d8; }
+
+.cardTitle {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1.2rem; }
+
+.cardPrice {
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: center;
+  color: #2a27e6; }
+
+.cardText {
+  font-size: 1.1rem;
+  font-weight: 300;
+  text-align: center; }
+
+/* Animations */
+.featuredTitleAnimation {
+  opacity: 0;
+  animation: featuredTitleAnimation;
+  animation-duration: 3s;
+  animation-fill-mode: forwards; }
+
+@keyframes featuredTitleAnimation {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.textAnimation {
+  opacity: 0;
+  animation: textAnimation;
+  animation-duration: 3s;
+  animation-fill-mode: forwards; }
+
+@keyframes textAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+
+.animation,
+.animation2,
+.animation3,
+.animation4,
+.animation5,
+.animation6,
+.animation7,
+.animation8 {
+  opacity: 0;
+  animation: animation;
+  animation-duration: 4s;
+  animation-fill-mode: forwards; }
+
+.animation2 {
+  animation-delay: 0.3s; }
+
+.animation3 {
+  animation-delay: 0.6s; }
+
+.animation4 {
+  animation-delay: 0.9s; }
+
+.animation5 {
+  animation-delay: 1.2s; }
+
+.animation6 {
+  animation-delay: 1.5s; }
+
+.animation7 {
+  animation-delay: 1.8s; }
+
+.animation8 {
+  animation-delay: 2.1s; }
+
+@keyframes animation {
+  0% {
+    opacity: 0;
+    transform: translateY(40px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+
+#sectionConocenos .container-fluid {
+  padding: 0% !important; }
+
+.contenidoWebCon {
+  font-family: "Handlee", cursive;
+  font-weight: bold; }
+
+.sweetBanner2 {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/sweetSugar.jpg); }
+
+.row {
+  margin-right: 15px;
+  margin-left: 15px; }
+
+.container i {
+  color: #C96582;
+  font-size: 2.5em;
+  padding: 15px; }
+
+.sweetBanner {
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/corazones.png); }
+
+.sweetSombra {
+  left: 10%;
+  top: 20%;
+  padding: 30px;
+  border-top: 20px solid #fff;
+  width: 50%;
+  text-align: center;
+  background-color: rgba(255, 198, 231, 0.6);
+  margin: auto; }
+
+.tituloBanner {
+  color: #C96582;
+  font-size: 4rem;
+  font-family: "Lobster", cursive;
+  text-align: center; }
+
+#carousel2 #carouselExampleIndicators {
+  margin-top: 0px; }
+
+.carta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 700px;
+  margin: 0 auto; }
+
+.carta__imagenes {
+  border-radius: 5%;
+  margin-bottom: 20px;
+  width: 100%; }
+
+.contact {
+  font-family: "Handlee", cursive;
+  font-weight: bold; }
+  .contact .section-title {
+    font-size: 1.5rem;
+    color: #dd2a5d;
+    text-align: center; }
+  .contact .info {
+    border-top: 3px solid #C96582;
+    border-bottom: 3px solid #C96582;
+    padding: 30px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+    margin-bottom: 20px; }
+    .contact .info i {
+      font-size: 1.4rem;
+      color: #C96582;
+      float: left;
+      width: 44px;
+      height: 44px;
+      background: #FEE0E9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50px;
+      transition: all 0.3s ease-in-out; }
+    .contact .info h2 {
+      padding: 0 0 0 60px;
+      font-size: 1.3rem;
+      font-weight: 600;
+      margin-bottom: 5px;
+      color: #7a6960; }
+    .contact .info p {
+      padding: 0 0 10px 60px;
+      margin-bottom: 20px;
+      font-size: 0.9rem;
+      color: #ab9d95; }
+    .contact .info a {
+      color: #ab9d95 !important; }
+    .contact .info .email p {
+      padding-top: 5px; }
+    .contact .info .social-links {
+      padding-left: 60px; }
+      .contact .info .social-links a {
+        font-size: 18px;
+        display: inline-block;
+        background: #333;
+        color: #FEE0E9;
+        line-height: 1;
+        padding: 8px 0;
+        border-radius: 50%;
+        text-align: center;
+        width: 36px;
+        height: 36px;
+        transition: 0.3s;
+        margin-right: 10px; }
+        .contact .info .social-links a:hover {
+          background: #C96582;
+          color: #FEE0E9; }
+  .contact .address:hover i, .contact .hour:hover i, .contact .phone:hover i, .contact .email:hover i, .contact .whatsapp:hover i, .contact .instagram:hover i {
+    background: #C96582;
+    color: #FEE0E9; }
+  .contact .email-form {
+    width: 100%;
+    border-top: 3px solid #C96582;
+    border-bottom: 3px solid #C96582;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+    margin-bottom: 20px; }
+    .contact .email-form .form-group {
+      padding-bottom: 8px; }
+    .contact .email-form input, .contact .email-form .textarea {
+      border-radius: 0;
+      box-shadow: none;
+      font-size: 14px; }
+    .contact .email-form input {
+      height: 44px;
+      width: 100%; }
+    .contact .email-form .textarea {
+      padding: 10px 12px; }
+    .contact .email-form button[type="submit"] {
+      background: #C96582;
+      border: 0;
+      padding: 10px 24px;
+      color: #FEE0E9;
+      transition: 0.4s;
+      border-radius: 4px; }
+      .contact .email-form button[type="submit"]:hover {
+        background: #da7793; }
+    .contact .email-form .img-form {
+      margin-top: 20px !important; }

@@ -1,0 +1,111 @@
+.featuredTitle{
+    font-family: $tipografiaSubtitulos;
+    color: $colorGeneral6;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 3rem 0 2rem 0;
+}
+.featuredCard{
+    margin-bottom: 2rem;
+    color: $colorGeneral6;
+    font-family: $tipografiaOtros;
+    &:hover{
+        box-shadow: 0px 0px 20px 3px rgb(218, 216, 216);
+    }
+}
+.cardTitle{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+.cardPrice{
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+    color: $colorCard;
+}
+.cardText{
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-align: center;
+} 
+/* Animations */
+.featuredTitleAnimation{
+    opacity: 0;
+    animation: featuredTitleAnimation;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+} 
+@keyframes featuredTitleAnimation{
+    0%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+}
+.textAnimation{
+    opacity: 0;
+    animation: textAnimation;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}  
+@keyframes textAnimation{
+    0%{
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100%{
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+.animation,
+.animation2,
+.animation3,
+.animation4,
+.animation5,
+.animation6,
+.animation7,
+.animation8{
+    opacity: 0;
+    animation: animation;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+.animation2{
+    animation-delay: 0.3s;
+}
+.animation3{
+    animation-delay: 0.6s;
+}
+.animation4{
+    animation-delay: 0.9s;
+}
+.animation5{
+    animation-delay: 1.2s;
+}
+.animation6{
+    animation-delay: 1.5s;
+}
+.animation7{
+    animation-delay: 1.8s;
+}
+.animation8{
+    animation-delay: 2.1s;
+}  
+@keyframes animation{
+    0%{
+        opacity: 0;
+        transform: translateY(40px);
+    }
+      100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,42 @@
+//Página Dulcería
+
+.sweetBanner{
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/corazones.png);
+}
+.sweetSombra{
+    left: 10%;
+    top: 20%;
+    padding:30px;
+    border-top: 20px solid $colorGeneral5;
+    width: 50%;
+    text-align: center;
+    background-color: $colorBanner;
+    margin: auto;
+}
+.tituloBanner{
+    color: $colorGeneral1;
+    font-size: 4rem;
+    font-family: $tipografiaTitulos;
+    text-align: center;
+}
+#carousel2 #carouselExampleIndicators{
+    margin-top: 0px;
+}
+.carta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+    margin: 0 auto; 
+}
+.carta__imagenes {
+    border-radius: 5%;
+    margin-bottom: 20px;
+    width: 100%; 
+}
