@@ -7,7 +7,7 @@ body {
   flex-direction: column; }
 
 .containerBackground {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.007)), url(../img/basicaMantecado.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/basicaMantecado.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
