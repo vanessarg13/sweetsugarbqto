@@ -47,18 +47,16 @@ body{
         }
     }
 }
-#section2{
-    .info2{
-        padding: 0% !important;
-        margin: 0% !important;      
-    } 
+.info2{
+    padding: 0% !important;    
 }
 .testimonio-index {
     font-size: 1.3rem;
-    font-style: italic;
     font-weight: 300;
-    background-color: $colorGeneral2;
-    color: $colorGeneral6;
+    color: $colorGeneral6; 
+    font-family: $tipografiaTitulos !important;
+    background-image: url(../img/corazones.png);
+    margin: 0% !important;
     img {
         border: white solid 1px;
         display: inline;
@@ -69,6 +67,7 @@ body{
         border-right: white 1px solid;
         height: fit-content;
         margin: 1vw; 
+        background-color: $colorGeneral2;
     }
     .firma-quote {
         font-size: 1.1rem;
