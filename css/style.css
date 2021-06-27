@@ -7,13 +7,13 @@ body {
   flex-direction: column; }
 
 .containerBackground {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/miniDulces.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/PRUEBA.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 120vh;
   width: 100%;
-  margin-top: 50px; }
+  margin-top: 70px; }
 
 #carouselExampleIndicators {
   margin-top: 75px; }
@@ -35,7 +35,7 @@ body {
 
 @media (min-width: 320px) and (max-width: 768px) {
   .containerBackground {
-    height: 30vh;
+    height: 40vh;
     margin-top: 70px; }
   .subtituloCentrado {
     font-size: 1.5rem; }
