@@ -9,11 +9,13 @@ body{
     flex-direction: column; 
 }
 .containerBackground {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/basicaMantecado.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/miniDulces.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 120vh;
+    width: 100%;
+    margin-top: 50px;
 }
 #carouselExampleIndicators{
     margin-top: 75px;
@@ -34,6 +36,13 @@ body{
     margin-top: 110px;
 }
 @media (min-width:320px) and (max-width: 768px){
+    .containerBackground {
+        height: 30vh;
+        margin-top: 70px;
+    }
+    .subtituloCentrado {
+        font-size: 1.5rem;
+    }
     #carouselExampleIndicators{
         margin-top: 70px;
     }
@@ -55,7 +64,7 @@ body{
     font-weight: 300;
     color: $colorGeneral6; 
     font-family: $tipografiaTitulos !important;
-    background-image: url(../img/corazones.png);
+    background-image: url(../img/corazones.jpg);
     margin: 0% !important;
     img {
         border: white solid 1px;
