@@ -1,8 +1,6 @@
 .featuredTitle{
     font-family: $tipografiaSubtitulos;
     color: $colorGeneral6;
-    display: flex;
-    justify-content: center;
     text-align: center;
     font-size: 1.6rem;
     text-transform: uppercase;
@@ -65,14 +63,7 @@
       transform: translateY(0);
     }
 }
-.animation,
-.animation2,
-.animation3,
-.animation4,
-.animation5,
-.animation6,
-.animation7,
-.animation8{
+.animation, .animation2, .animation3, .animation4, .animation5, .animation6, .animation7, .animation8{
     opacity: 0;
     animation: animation;
     animation-duration: 4s;

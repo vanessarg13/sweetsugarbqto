@@ -7,24 +7,20 @@
         padding: 15px;
     }
 }
-.fa-whatsapp:hover{
+.fa-whatsapp:hover, .fa-instagram:hover, .fa-map-marker-alt:hover, .fa-envelope:hover{
     transition-timing-function: ease-in-out;
-    transition-duration: 0.3s;  
+    transition-duration: 0.3s; 
+}
+.fa-whatsapp:hover{ 
     color: $colorFooter1;
 }
-.fa-instagram:hover{
-    transition-timing-function: ease-in-out;
-    transition-duration: 0.3s;  
+.fa-instagram:hover{ 
     color: $colorFooter2;
 }  
 .fa-map-marker-alt:hover{
-    transition-timing-function: ease-in-out;
-    transition-duration: 0.3s;
     color: $colorFooter3;
 }
 .fa-envelope:hover{
-    transition-timing-function: ease-in-out;
-    transition-duration: 0.3s;
     color: $colorFooter4;
 }
 .footerTitulo{

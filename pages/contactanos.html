@@ -14,7 +14,6 @@
     rel="stylesheet">
   <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="../css/style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
   <meta name="author" content="Vanessa Ramos" />
   <meta name="description"
     content="Puedes contáctarnos a través de nuestras redes sociales, o indicandonos acá tus datos para realizarte tu presupuesto. Contáctanos." />
@@ -131,33 +130,31 @@
 
               <div class="form-group col-md-12">
                 <label for="name">Nombre y Apellido:</label>
-                <input type="text" class="form-control" id="validationDefault02" value="" required>
+                <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
               </div>
               <div class="form-group col-md-12">
-                <label for="name">Tu email</label>
-                <input type="email" class="form-control" name="email" id="email" data-rule="email"
-                  data-msg="Please enter a valid email" />
+                <label for="email">Tu E-mail:</label>
+                <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
               </div>
               <div class="form-group col-md-12">
-                <label for="name">Tu Teléfono</label>
-                <input type="text" class="form-control" id="validationDefault02" value="" required>
+                <label for="cellphone">Tu Teléfono:</label>
+                <input type="text" class="form-control" name="cellphone" id="cellphone" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
               </div>
               <div class="form-group col-md-12">
-                <label for="inputState" class="form-label contenidoForm">Escoger</label>
+                <label for="inputState" class="form-label">Escoger</label>
                 <select id="inputState" class="form-select">
                   <option selected> </option>
-                  <option class="contenidoForm">Solo Torta</option>
-                  <option class="contenidoForm">Solo Mini Dulces</option>
-                  <option class="contenidoForm">Torta y Mini Dulces</option>
+                  <option value="Torta">Solo Torta</option>
+                  <option value="Minidulces">Solo Mini Dulces</option>
+                  <option value="Ambos">Torta y Mini Dulces</option>
                 </select>
               </div>
               <div class="form-group col-md-12">
-                <label for="name">Mensaje</label>
-                <textarea class="form-control" name="message" rows="6" data-rule="required"
+                <label for="message">Mensaje</label>
+                <textarea class="form-control" name="message" id="message" rows="6" data-rule="required"
                   data-msg="Please write something for us"></textarea>
-                <div class="validate"></div>
               </div>
-              <button type="submit" class="btn btn-primary contenidoForm2 ">Enviar</button>
+              <button type="submit" class="btn btn-primary">Enviar</button>
             </div>
           </form>
         </div>
@@ -173,6 +170,15 @@
           <h3 class="text-uppercase footerTitulo">Atrévete a convertirte en un #SweetLovers.</h3>
           <p class="contenidoFooter">
             Disfruta de nuestros Deliciosos Postres
+          </p>
+          <p class="contenidoFooter">
+            - Tortas Personalizadas
+          </p>
+          <p class="contenidoFooter">
+           - Mini Dulces
+          </p>
+          <p class="contenidoFooter">
+           - Postres por Ración
           </p>
         </div>
         <div class="col-lg-6 col-md-6 mb-2 mb-md-0">

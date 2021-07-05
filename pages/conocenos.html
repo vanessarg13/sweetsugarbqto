@@ -14,7 +14,6 @@
         rel="stylesheet">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <meta name="author" content="Vanessa Ramos" />
     <meta name="description"
         content="Contamos con un equipo altamente capacitado en repostería y decoración y con muchas de servirte y ayudarte en lo que desees. Conócenos." />
@@ -62,7 +61,7 @@
     </header>
 
     <!-- Carousel Equipo-->
-    <main id="sectionConocenos">
+    <main>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -100,39 +99,45 @@
 
     <!-- Contenido Principal -->
     <section>
-        <div class="container nosotros">
-            <h2 class="d-flex justify-content-center featuredTitle featuredTitleAnimation">
-                Nosotros
-            </h2>
+        <div class="container">
+            <h3 class="d-flex justify-content-center featuredTitle featuredTitleAnimation">
+                ¿Porqué Elegirnos?
+            </h3>
             <div class="row">
-                <div class="col-12 col-md-4 d-flex flex-column align-items-center animation mb-4">
-                    <i class="fas fa-birthday-cake"></i>
-                    <h3 class="my-2 subtituloCentrado">Repostería</h3>
-                    <p class="contenidoWebCon text-center">
-                        Nuestra experiencia en el rubro es amplia y nos encargamos de que todo quede Hermoso.
-                    </p>
+                <div class="col-md-4 cualidades text-center">
+                    <div class="cualidades__profile">
+                        <i class="fas fa-birthday-cake"></i>
+                        <h3 class="my-2 cualidades__titulo">Repostería</h3>
+                        <p class="cualidades__texto text-center">
+                            Con nuestra experiencia nos encargamos de que todo quede Hermoso.
+                        </p>
+                    </div>
                 </div>
-                <div class="col-12 col-md-4 d-flex flex-column align-items-center animation2 mb-4">
-                    <i class="fas fa-candy-cane"></i>
-                    <h3 class="my-2 subtituloCentrado">Dulcería</h3>
-                    <p class="contenidoWebCon text-center">
-                        Actualmente tenemos nuestro lugar, donde nuestros clientes pueden disfrutar deliciosos
-                        postres.
-                    </p>
+                <div class="col-md-4 cualidades text-center">
+                    <div class="cualidades__profile">
+                        <i class="fas fa-candy-cane"></i>
+                        <h3 class="my-2 cualidades__titulo">Dulcería</h3>
+                        <p class="cualidades__texto text-center">
+                            Actualmente nuestros clientes pueden disfrutar deliciosos
+                            postres en físico.
+                        </p>
+                    </div>
                 </div>
-                <div class="col-12 col-md-4 d-flex flex-column align-items-center animation3 mb-4">
-                    <i class="fas fa-coffee"></i>
-                    <h3 class="my-2 subtituloCentrado">Café</h3>
-                    <p class="contenidoWebCon text-center">
-                        Contamos con maravillosos cafés, realizados con todo nuestro Amor.
-                    </p>
+                <div class="col-md-4 cualidades text-center">
+                    <div class="cualidades__profile">
+                        <i class="fas fa-birthday-cake"></i>
+                        <h3 class="my-2 cualidades__titulo">Café</h3>
+                        <p class="cualidades__texto text-center">
+                            Contamos con maravillosos cafés, realizados con todo nuestro Amor.
+                        </p>
+                    </div>
                 </div>
-            </div>
+            </div>             
         </div>
     </section>
 
     <!--División-->
-    <section>
+    <section class="bannerConocenos">
         <div class="container-fluid">
             <div class="sweetBanner2">
                 <div class="col-12 background"></div>
@@ -141,37 +146,51 @@
     </section>
 
     <!-- Seccion 2 -->
-    <section>
-        <div class="container nosotros">
+    <section class="testimonios">
+        <div class="container">
             <h2 class="d-flex justify-content-center featuredTitle featuredTitleAnimation">
-                Opiniones
+                Opiniones de Nuestros Clientes
             </h2>
             <div class="row">
-                <div class="col-12 col-md-4 d-flex flex-column align-items-center animation mb-4">
-                    <i class="fas fa-star"></i>
-                    <h3 class="my-2 subtituloCentrado">Vanessa Ramos</h3>
-                    <p class="contenidoWebCon text-center">
-                        Siempre he amado Sweet&Sugar desde sus inicios sus postres son increíbles.
-                    </p>
+                <div class="col-md-4 testimonio text-center">
+                    <div class="testimonio__profile">
+                        <img src="../img/Vanessa.jpg" alt="Mujer pelo castaño sonriendo" class="testimonio__foto">
+                        <p class="testimonio__texto">"Siempre he amado Sweet&Sugar desde sus inicios sus postres son increíbles. Su sabor es de otro planeta."</p>
+                        <h4 class="testimonio__cliente">Vanessa Ramos <span>-Cliente VIP</span></h4>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
                 </div>
-                <div class="col-12 col-md-4 d-flex flex-column align-items-center animation2 mb-4">
-                    <i class="far fa-smile-wink"></i>
-                    <h3 class="my-2 subtituloCentrado">José Manuel Borges</h3>
-                    <p class="contenidoWebCon text-center">
-                        Sweet&Sugar son un gran equipo, muy amables y serviciales, además siempre me salvan en los
-                        cumpleaños.
-                    </p>
+                <div class="col-md-4  testimonio text-center">
+                    <div class="testimonio__profile ">
+                        <img src="../img/Julia.jpeg" alt="Mujer rubia sonriendo" class="testimonio__foto">
+                        <p class="testimonio__texto">"Hace 1 semana fui a su dulcería y probé una Skillet Cookie y sin duda desde ese momento
+                            me convertí en una #SweetLovers."</p>
+                        <h4 class="testimonio__cliente">Julia García<span>-Cliente Nuevo</span></h4>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
                 </div>
-                <div class="col-12 col-md-4 d-flex flex-column align-items-center animation3 mb-4">
-                    <i class="fas fa-heart"></i>
-                    <h3 class="my-2 subtituloCentrado">Julia García</h3>
-                    <p class="contenidoWebCon text-center">
-                        Recuerdo que lo primero que probé de S&S fue su brownie pizza y sin duda desde ese momento
-                        me convertí en una #SweetLovers.
-                    </p>
+                <div class="col-md-4 testimonio text-center">
+                    <div class="testimonio__profile testimonio__profile--tercero">
+                        <img src="../img/JoseM.jpeg" alt="Hombre pelo castaño sonriendo" class="testimonio__foto">
+                        <p class="testimonio__texto">"Sweet&Sugar son un gran equipo, muy amables y serviciales, además siempre me salvan en los
+                            cumpleaños con sus ChocoBásicas."</p>
+                        <h4 class="testimonio__cliente">José M. Borges<span>-Cliente hace 2 años</span></h4>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
                 </div>
             </div>
-        </div>
     </section>
 
     <!--Footer-->
@@ -183,6 +202,15 @@
                     <p class="contenidoFooter">
                         Disfruta de nuestros Deliciosos Postres
                     </p>
+                    <p class="contenidoFooter">
+                        - Tortas Personalizadas
+                      </p>
+                      <p class="contenidoFooter">
+                       - Mini Dulces
+                      </p>
+                      <p class="contenidoFooter">
+                       - Postres por Ración
+                      </p>
                 </div>
                 <div class="col-lg-6 col-md-6 mb-2 mb-md-0">
                     <h3 class="text-uppercase footerTitulo">Nuestras Redes Sociales</h3>

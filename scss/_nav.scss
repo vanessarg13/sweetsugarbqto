@@ -51,14 +51,14 @@ nav{
     color: $colorGeneral2 !important;
     text-align: center;
     transition: 0.5s; 
-  }
-  a:hover{
-    font-weight: 900;
-    font-size: 1.2rem;
-    background-color: $colorNav1;
-    color: $colorGeneral2;
-    border-radius: 10px 10px 10px 10px;
-    padding: 10px; 
+    &:hover{
+      font-weight: 900;
+      font-size: 1.2rem;
+      background-color: $colorNav1;
+      color: $colorGeneral2;
+      border-radius: 10px 10px 10px 10px;
+      padding: 10px; 
+    }
   }
 }
 .boton-menu {
@@ -83,9 +83,6 @@ nav{
   font-family: $tipografiaOtros;
   font-weight: bold; 
   font-size: 1.2rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
   align-items: center; 
   a {
     height: 24px;

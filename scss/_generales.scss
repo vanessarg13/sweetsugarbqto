@@ -9,7 +9,7 @@ body{
     flex-direction: column; 
 }
 .containerBackground {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/PRUEBA.jpg);
+    background-image: url(../img/imagenPpal.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -29,8 +29,9 @@ body{
 .subtituloCentrado {
     font-size: 1.8rem;
     color: $colorGeneral6;
-    font-family: $tipografiaSubtitulos;
+    font-family: $tipografiaOtros;
     text-align: center;
+    font-weight: bold;
 }
 .margin{
     margin-top: 110px;
@@ -53,6 +54,11 @@ body{
         text-align: center;
         i{
             padding: 5px!important;
+        }
+    }
+    .sweetBanner{
+        .subtituloCentrado{
+            line-height: initial
         }
     }
 }

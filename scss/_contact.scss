@@ -42,33 +42,11 @@
             font-size: 0.9rem;
             color: $colorContact2; 
         }
-        a{
-            color: $colorContact2!important;
-        }
-        .email p{
-            padding-top: 5px; 
-        }
-        .social-links{
-            padding-left: 60px; 
-            a{
-                font-size: 18px;
-                display: inline-block;
-                background: #333;
-                color: $colorGeneral2;
-                line-height: 1;
-                padding: 8px 0;
-                border-radius: 50%;
-                text-align: center;
-                width: 36px;
-                height: 36px;
-                transition: 0.3s;
-                margin-right: 10px; 
-                &:hover{
-                    background: $colorGeneral1;
-                    color: $colorGeneral2; 
-                }
-            }
-        }
+        .email{
+            p{
+                padding-top: 5px;
+            } 
+        }        
     }
     .address:hover i, .hour:hover i, .phone:hover i, .email:hover i, .whatsapp:hover i, .instagram:hover i{
         background: $colorGeneral1;
@@ -97,7 +75,7 @@
         .textarea {
             padding: 10px 12px; 
         }
-        button[type="submit"] {
+        button{
             background: $colorGeneral1;
             border: 0;
             padding: 10px 24px;

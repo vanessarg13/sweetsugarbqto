@@ -1,29 +1,92 @@
 //Página Conócenos
 
-#sectionConocenos .container-fluid{
-    padding: 0% !important;
-}
-.contenidoWebCon{
-    font-family: $tipografiaOtros;
-    font-weight: bold;
-}
-.sweetBanner2{
-    height: 100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(../img/sweetSugar.jpg);
-}
-.row{
-    margin-right: 15px;
-    margin-left: 15px;
-}
-.container{
-    i{
-        color: $colorGeneral1;
-        font-size: 2.5em;
-        padding: 15px;
+.bannerConocenos{
+    .sweetBanner2{
+        height: 400px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../img/sweetSugar.jpeg);
+    }
+    .container-fluid{
+        padding: 0% !important;
     }
 }
+.cualidades{ 
+    margin-bottom: 2rem;
+    .cualidades__profile{
+    	background-color: $colorGeneral2;
+        padding: 3em 2em;   
+        border-radius: 1rem;     
+    	&:hover{
+		box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+		transition: 0.5s;
+	    }  
+        i{
+            color: $colorGeneral6;
+            padding: 5px;
+            font-size: 2.5rem;
+        }
+    }
+    .cualidades__titulo{
+        font-size: 2.5rem;
+        margin-top: 1em;
+        padding-bottom: 0.5em;
+        color: $colorGeneral6;
+        font-family: $tipografiaTitulos;
+    }	
+	.cualidades__texto{
+        font-size: 1.5rem;
+        line-height: 30px;
+        color: $colorGeneral1;
+        font-family: $tipografiaOtros;
+        
+    }      	
+}
+.testimonio{
+	margin: 5em auto;  
+    .testimonio__profile{
+    	background-color: $colorGeneral1;
+        padding: 3em 2em;        
+    	&:hover{
+		box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+		transition: 0.5s;
+	    }  
+        i{
+            color: yellow;
+            padding: 5px;
+            font-size: 1.5rem;
+        }
+    }      	
+	.testimonio__foto{
+		top: -4em;
+		border: 10px solid $colorGeneral2;
+		margin-bottom: 1em;
+		width: 8em;
+	    height: 8em;
+	    border-radius: 50%;
+	    margin-top: -6em;
+	}
+    .testimonio__cliente{
+        font-size: 1.5rem;
+        margin-top: 1em;
+        padding-bottom: 0.5em;
+        color: $colorGeneral2;
+        font-family: $tipografiaTitulos;
+    }	
+	.testimonio__texto{
+        font-size: 1.5rem;
+        line-height: 30px;
+        color: $colorGeneral2;
+        font-family: $tipografiaOtros;
+    }
+}
+span{
+	font-size: 1rem;
+    font-family: $tipografiaOtros;
+	color: $colorGeneral5
+}
+
+
   
