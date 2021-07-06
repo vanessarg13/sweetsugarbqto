@@ -70,7 +70,8 @@ body {
     border-right: white 1px solid;
     height: fit-content;
     margin: 1vw;
-    background-color: #FEE0E9; }
+    background-color: #FEE0E9;
+    line-height: initial; }
   .testimonio-index .firma-quote {
     font-size: 1.1rem;
     font-style: normal;
@@ -179,6 +180,21 @@ nav {
   z-index: 2;
   border: solid #FEE0E9; }
 
+#logoHover {
+  padding: 0%; }
+
+.navbar {
+  height: 75px;
+  background-color: #C96582 !important;
+  border-bottom: 0.5px #333;
+  box-shadow: 0px 6px 5px 3px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  border-bottom: 0.5px #333;
+  z-index: 1;
+  animation-name: efecto_nav;
+  animation-duration: 1s;
+  animation-timing-function: linear; }
+
 @media (min-width: 768px) {
   #navMobile {
     display: none; } }
@@ -212,21 +228,6 @@ nav {
     position: absolute;
     top: 18.5px;
     left: 68%; } }
-
-#logoHover {
-  padding: 0%; }
-
-.navbar {
-  height: 75px;
-  background-color: #C96582 !important;
-  border-bottom: 0.5px #333;
-  box-shadow: 0px 6px 5px 3px rgba(0, 0, 0, 0.3);
-  width: 100%;
-  border-bottom: 0.5px #333;
-  z-index: 1;
-  animation-name: efecto_nav;
-  animation-duration: 1s;
-  animation-timing-function: linear; }
 
 .pieDePagina {
   background-color: #C96582; }
@@ -370,24 +371,24 @@ nav {
 
 .cualidades {
   margin-bottom: 2rem; }
-  .cualidades .cualidades__profile {
+  .cualidades .cualidades-profile {
     background-color: #FEE0E9;
     padding: 3em 2em;
     border-radius: 1rem; }
-    .cualidades .cualidades__profile:hover {
+    .cualidades .cualidades-profile:hover {
       box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
       transition: 0.5s; }
-    .cualidades .cualidades__profile i {
+    .cualidades .cualidades-profile i {
       color: #dd2a5d;
       padding: 5px;
       font-size: 2.5rem; }
-  .cualidades .cualidades__titulo {
+  .cualidades .cualidades-titulo {
     font-size: 2.5rem;
     margin-top: 1em;
     padding-bottom: 0.5em;
     color: #dd2a5d;
     font-family: "Lobster", cursive; }
-  .cualidades .cualidades__texto {
+  .cualidades .cualidades-texto {
     font-size: 1.5rem;
     line-height: 30px;
     color: #C96582;
@@ -395,17 +396,17 @@ nav {
 
 .testimonio {
   margin: 5em auto; }
-  .testimonio .testimonio__profile {
+  .testimonio .testimonio-profile {
     background-color: #C96582;
     padding: 3em 2em; }
-    .testimonio .testimonio__profile:hover {
+    .testimonio .testimonio-profile:hover {
       box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
       transition: 0.5s; }
-    .testimonio .testimonio__profile i {
+    .testimonio .testimonio-profile i {
       color: yellow;
       padding: 5px;
       font-size: 1.5rem; }
-  .testimonio .testimonio__foto {
+  .testimonio .testimonio-foto {
     top: -4em;
     border: 10px solid #FEE0E9;
     margin-bottom: 1em;
@@ -413,13 +414,13 @@ nav {
     height: 8em;
     border-radius: 50%;
     margin-top: -6em; }
-  .testimonio .testimonio__cliente {
+  .testimonio .testimonio-cliente {
     font-size: 1.5rem;
     margin-top: 1em;
     padding-bottom: 0.5em;
     color: #FEE0E9;
     font-family: "Lobster", cursive; }
-  .testimonio .testimonio__texto {
+  .testimonio .testimonio-texto {
     font-size: 1.5rem;
     line-height: 30px;
     color: #FEE0E9;
@@ -461,7 +462,7 @@ span {
   align-items: center;
   max-width: 700px;
   margin: 0 auto; }
-  .carta .carta__imagenes {
+  .carta .carta-imagenes {
     border-radius: 5%;
     margin-bottom: 20px;
     width: 100%; }

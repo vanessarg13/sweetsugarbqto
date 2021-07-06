@@ -15,7 +15,7 @@
 }
 .cualidades{ 
     margin-bottom: 2rem;
-    .cualidades__profile{
+    .cualidades-profile{
     	background-color: $colorGeneral2;
         padding: 3em 2em;   
         border-radius: 1rem;     
@@ -29,14 +29,14 @@
             font-size: 2.5rem;
         }
     }
-    .cualidades__titulo{
+    .cualidades-titulo{
         font-size: 2.5rem;
         margin-top: 1em;
         padding-bottom: 0.5em;
         color: $colorGeneral6;
         font-family: $tipografiaTitulos;
     }	
-	.cualidades__texto{
+	.cualidades-texto{
         font-size: 1.5rem;
         line-height: 30px;
         color: $colorGeneral1;
@@ -46,7 +46,7 @@
 }
 .testimonio{
 	margin: 5em auto;  
-    .testimonio__profile{
+    .testimonio-profile{
     	background-color: $colorGeneral1;
         padding: 3em 2em;        
     	&:hover{
@@ -59,7 +59,7 @@
             font-size: 1.5rem;
         }
     }      	
-	.testimonio__foto{
+	.testimonio-foto{
 		top: -4em;
 		border: 10px solid $colorGeneral2;
 		margin-bottom: 1em;
@@ -68,14 +68,14 @@
 	    border-radius: 50%;
 	    margin-top: -6em;
 	}
-    .testimonio__cliente{
+    .testimonio-cliente{
         font-size: 1.5rem;
         margin-top: 1em;
         padding-bottom: 0.5em;
         color: $colorGeneral2;
         font-family: $tipografiaTitulos;
     }	
-	.testimonio__texto{
+	.testimonio-texto{
         font-size: 1.5rem;
         line-height: 30px;
         color: $colorGeneral2;
