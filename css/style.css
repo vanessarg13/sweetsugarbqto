@@ -506,6 +506,8 @@ span {
       color: #ab9d95; }
     .contact .info .email p {
       padding-top: 5px; }
+    .contact .info a {
+      color: #ab9d95; }
   .contact .address:hover i, .contact .hour:hover i, .contact .phone:hover i, .contact .email:hover i, .contact .whatsapp:hover i, .contact .instagram:hover i {
     background: #C96582;
     color: #FEE0E9; }
@@ -539,3 +541,48 @@ span {
         background: #da7793; }
     .contact .email-form .img-form {
       margin-top: 20px !important; }
+
+#page404 {
+  margin-left: 1%;
+  margin-right: 1%;
+  color: black; }
+
+.section404 {
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/corazones.jpg);
+  margin-top: 70px;
+  text-align: center; }
+  .section404 .page404 {
+    font-weight: 300;
+    color: #dd2a5d; }
+    .section404 .page404 img {
+      display: inline;
+      margin: 1vw;
+      margin-top: 0vw; }
+    .section404 .page404 .text404 {
+      height: fit-content;
+      margin: 1vw; }
+      .section404 .page404 .text404 h1 {
+        font-family: "Lobster", cursive;
+        font-size: 5rem;
+        text-align: center; }
+      .section404 .page404 .text404 h2 {
+        font-family: "Handlee", cursive;
+        font-size: 3.5rem;
+        text-align: center; }
+      .section404 .page404 .text404 p {
+        font-family: "Abril Fatface", cursive;
+        font-size: 2.5rem;
+        text-align: center;
+        margin-top: 25px; }
+  .section404 button {
+    margin-bottom: 25px; }
+    .section404 button a {
+      text-decoration: none;
+      color: white !important;
+      font-size: 2rem;
+      font-family: "Handlee", cursive; }
